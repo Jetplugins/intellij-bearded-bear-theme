@@ -1,5 +1,7 @@
-package com.beardedtheme.intellij;
+package dev.jetplugins.beardedtheme;
 
+import com.intellij.notification.NotificationGroupManager;
+import com.intellij.notification.NotificationType;
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.diagnostic.Logger;
 import com.intellij.openapi.project.Project;
@@ -15,9 +17,9 @@ import org.jetbrains.annotations.Nullable;
  *
  * JetBrains Marketplace handles the subscription flow ($1/month).
  * This activity checks the license state via the LicensingFacade API
- * and logs a warning if no active license is found. The theme still
+ * and shows a notification if no active license is found. The theme still
  * loads (JetBrains policy requires themes to remain functional) but
- * a notification reminds the user to subscribe.
+ * a balloon notification reminds the user to subscribe.
  *
  * Product code: PBEARDEDTHEME (matches plugin.xml product-descriptor)
  */
@@ -25,6 +27,7 @@ public class BeardedThemeLicenseCheck implements ProjectActivity {
 
     private static final Logger LOG = Logger.getInstance(BeardedThemeLicenseCheck.class);
     private static final String PRODUCT_CODE = "PBEARDEDTHEME";
+    private static final String NOTIFICATION_GROUP = "Bearded Theme";
 
     @Nullable
     @Override
@@ -40,15 +43,24 @@ public class BeardedThemeLicenseCheck implements ProjectActivity {
             return;
         }
 
-        String licensedVersion = licensingFacade.getLicensedVersion(PRODUCT_CODE);
-        boolean isLicensed = licensedVersion != null;
+        String stamp = licensingFacade.getConfirmationStamp(PRODUCT_CODE);
+        boolean isLicensed = stamp != null;
 
         if (isLicensed) {
-            LOG.info("Bearded Theme: Active subscription found (version: " + licensedVersion + ")");
+            LOG.info("Bearded Theme: Active subscription found");
         } else {
-            LOG.warn("Bearded Theme: No active subscription found. " +
-                     "Please subscribe at https://plugins.jetbrains.com to support development. " +
-                     "The theme will continue to work, but consider supporting the creator.");
+            LOG.warn("Bearded Theme: No active subscription found.");
+            NotificationGroupManager.getInstance()
+                .getNotificationGroup(NOTIFICATION_GROUP)
+                .createNotification(
+                    "Bearded Theme — unlicensed",
+                    "Your Bearded Theme subscription is not active. " +
+                    "The theme will continue to work, but please consider " +
+                    "<a href=\"https://plugins.jetbrains.com\">subscribing ($1/month)</a> " +
+                    "to support development.",
+                    NotificationType.WARNING)
+                .setImportant(true)
+                .notify(project);
         }
     }
 }

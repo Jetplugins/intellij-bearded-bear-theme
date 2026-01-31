@@ -105,6 +105,10 @@ function hexToIntelliJ(hex) {
   return hex.replace("#", "").toUpperCase();
 }
 
+function escapeXmlAttr(str) {
+  return str.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
 function hexToIntColor(hex) {
   const {r, g, b} = hexToRgb(hex);
   return (r << 16) | (g << 8) | b;
@@ -986,14 +990,16 @@ function generateEditorSchemeXml(entry) {
 
   const bracketBg = hexToIntelliJ(isDark ? lighten(ui.uibackground, 10) : darken(ui.uibackground, 10));
 
+  const xmlName = escapeXmlAttr(name);
+
   return `<?xml version="1.0" encoding="UTF-8"?>
-<scheme name="${name}" version="142" parent_scheme="${isDark ? "Darcula" : "Default"}">
+<scheme name="${xmlName}" version="142" parent_scheme="${isDark ? "Darcula" : "Default"}">
   <metaInfo>
     <property name="created">2024-01-01T00:00:00</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2024.1.0.0</property>
     <property name="modified">2024-01-01T00:00:00</property>
-    <property name="originalScheme">${name}</property>
+    <property name="originalScheme">${xmlName}</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="${addedStripe}" />
@@ -1980,7 +1986,7 @@ console.log(`\nGenerated ${generatedThemes.length} themes.`);
 
 // Generate plugin.xml theme entries
 const themeEntries = generatedThemes.map(e =>
-  `      <themeProvider id="com.beardedtheme.intellij.${e.slug}" path="/themes/${e.slug}.theme.json" />`
+  `      <themeProvider id="dev.jetplugins.beardedtheme.${e.slug}" path="/themes/${e.slug}.theme.json" />`
 ).join("\n");
 
 console.log("\n--- plugin.xml theme entries ---");

@@ -1,4 +1,4 @@
-package com.beardedtheme.intellij;
+package dev.jetplugins.beardedtheme;
 
 import org.junit.Test;
 

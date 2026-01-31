@@ -4,7 +4,7 @@ plugins {
     id("org.jetbrains.kotlin.jvm") version "1.9.25"
 }
 
-group = "com.beardedtheme.intellij"
+group = "dev.jetplugins.beardedtheme"
 version = "1.0.0"
 
 repositories {

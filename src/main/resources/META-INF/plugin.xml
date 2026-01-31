@@ -1,5 +1,5 @@
 <idea-plugin require-restart="true">
-  <id>com.beardedtheme.intellij</id>
+  <id>dev.jetplugins.beardedtheme</id>
   <name>Bearded Theme</name>
   <vendor email="beardedtheme@pm.me" url="https://github.com/BeardedBear/bearded-theme">Bearded Bear</vendor>
   <version>1.0.0</version>
@@ -57,75 +57,78 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Theme Providers -->
-    <themeProvider id="com.beardedtheme.intellij.anthracite" path="/themes/anthracite.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.anthracite-light" path="/themes/anthracite-light.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.arc" path="/themes/arc.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.arc-eolstorm" path="/themes/arc-eolstorm.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.arc-blueberry" path="/themes/arc-blueberry.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.arc-eggplant" path="/themes/arc-eggplant.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.arc-reversed" path="/themes/arc-reversed.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.vivid-purple" path="/themes/vivid-purple.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.vivid-black" path="/themes/vivid-black.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.vivid-light" path="/themes/vivid-light.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.monokai-terra" path="/themes/monokai-terra.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.monokai-metallian" path="/themes/monokai-metallian.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.monokai-stone" path="/themes/monokai-stone.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.monokai-black" path="/themes/monokai-black.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.monokai-reversed" path="/themes/monokai-reversed.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.solarized-dark" path="/themes/solarized-dark.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.solarized-reversed" path="/themes/solarized-reversed.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.solarized-light" path="/themes/solarized-light.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.oceanic" path="/themes/oceanic.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.oceanic-reversed" path="/themes/oceanic-reversed.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.milkshake-raspberry" path="/themes/milkshake-raspberry.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.milkshake-blueberry" path="/themes/milkshake-blueberry.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.milkshake-mango" path="/themes/milkshake-mango.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.milkshake-mint" path="/themes/milkshake-mint.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.milkshake-vanilla" path="/themes/milkshake-vanilla.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.black-gold" path="/themes/black-gold.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.black-gold-soft" path="/themes/black-gold-soft.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.black-ruby" path="/themes/black-ruby.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.black-ruby-soft" path="/themes/black-ruby-soft.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.black-emerald" path="/themes/black-emerald.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.black-emerald-soft" path="/themes/black-emerald-soft.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.black-diamond" path="/themes/black-diamond.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.black-diamond-soft" path="/themes/black-diamond-soft.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.black-amethyst" path="/themes/black-amethyst.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.black-amethyst-soft" path="/themes/black-amethyst-soft.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.aquarelle-cymbidium" path="/themes/aquarelle-cymbidium.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.aquarelle-hydrangea" path="/themes/aquarelle-hydrangea.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.aquarelle-lilac" path="/themes/aquarelle-lilac.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.hc-ebony" path="/themes/hc-ebony.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.hc-midnightvoid" path="/themes/hc-midnightvoid.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.hc-wonderlandwood" path="/themes/hc-wonderlandwood.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.hc-brewingstorm" path="/themes/hc-brewingstorm.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.hc-flurry" path="/themes/hc-flurry.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.minuit" path="/themes/minuit.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.chocolate-espresso" path="/themes/chocolate-espresso.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.stained-purple" path="/themes/stained-purple.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.stained-blue" path="/themes/stained-blue.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.surprising-eggplant" path="/themes/surprising-eggplant.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.surprising-blueberry" path="/themes/surprising-blueberry.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.surprising-watermelon" path="/themes/surprising-watermelon.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.colorblind" path="/themes/colorblind.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.oled" path="/themes/oled.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.earth" path="/themes/earth.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.coffee" path="/themes/coffee.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.coffee-reversed" path="/themes/coffee-reversed.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.coffee-cream" path="/themes/coffee-cream.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.voided" path="/themes/voided.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.altica" path="/themes/altica.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.will" path="/themes/will.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.gold-d-raynh" path="/themes/gold-d-raynh.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.gold-d-raynh-light" path="/themes/gold-d-raynh-light.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.melle-julie" path="/themes/melle-julie.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.melle-julie-light" path="/themes/melle-julie-light.theme.json" />
-    <themeProvider id="com.beardedtheme.intellij.webdevcody" path="/themes/webdevcody.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.anthracite" path="/themes/anthracite.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.anthracite-light" path="/themes/anthracite-light.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.arc" path="/themes/arc.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.arc-eolstorm" path="/themes/arc-eolstorm.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.arc-blueberry" path="/themes/arc-blueberry.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.arc-eggplant" path="/themes/arc-eggplant.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.arc-reversed" path="/themes/arc-reversed.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.vivid-purple" path="/themes/vivid-purple.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.vivid-black" path="/themes/vivid-black.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.vivid-light" path="/themes/vivid-light.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.monokai-terra" path="/themes/monokai-terra.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.monokai-metallian" path="/themes/monokai-metallian.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.monokai-stone" path="/themes/monokai-stone.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.monokai-black" path="/themes/monokai-black.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.monokai-reversed" path="/themes/monokai-reversed.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.solarized-dark" path="/themes/solarized-dark.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.solarized-reversed" path="/themes/solarized-reversed.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.solarized-light" path="/themes/solarized-light.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.oceanic" path="/themes/oceanic.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.oceanic-reversed" path="/themes/oceanic-reversed.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.milkshake-raspberry" path="/themes/milkshake-raspberry.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.milkshake-blueberry" path="/themes/milkshake-blueberry.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.milkshake-mango" path="/themes/milkshake-mango.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.milkshake-mint" path="/themes/milkshake-mint.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.milkshake-vanilla" path="/themes/milkshake-vanilla.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.black-gold" path="/themes/black-gold.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.black-gold-soft" path="/themes/black-gold-soft.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.black-ruby" path="/themes/black-ruby.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.black-ruby-soft" path="/themes/black-ruby-soft.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.black-emerald" path="/themes/black-emerald.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.black-emerald-soft" path="/themes/black-emerald-soft.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.black-diamond" path="/themes/black-diamond.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.black-diamond-soft" path="/themes/black-diamond-soft.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.black-amethyst" path="/themes/black-amethyst.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.black-amethyst-soft" path="/themes/black-amethyst-soft.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.aquarelle-cymbidium" path="/themes/aquarelle-cymbidium.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.aquarelle-hydrangea" path="/themes/aquarelle-hydrangea.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.aquarelle-lilac" path="/themes/aquarelle-lilac.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.hc-ebony" path="/themes/hc-ebony.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.hc-midnightvoid" path="/themes/hc-midnightvoid.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.hc-wonderlandwood" path="/themes/hc-wonderlandwood.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.hc-brewingstorm" path="/themes/hc-brewingstorm.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.hc-flurry" path="/themes/hc-flurry.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.minuit" path="/themes/minuit.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.chocolate-espresso" path="/themes/chocolate-espresso.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.stained-purple" path="/themes/stained-purple.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.stained-blue" path="/themes/stained-blue.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.surprising-eggplant" path="/themes/surprising-eggplant.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.surprising-blueberry" path="/themes/surprising-blueberry.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.surprising-watermelon" path="/themes/surprising-watermelon.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.colorblind" path="/themes/colorblind.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.oled" path="/themes/oled.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.earth" path="/themes/earth.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.coffee" path="/themes/coffee.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.coffee-reversed" path="/themes/coffee-reversed.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.coffee-cream" path="/themes/coffee-cream.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.voided" path="/themes/voided.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.altica" path="/themes/altica.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.will" path="/themes/will.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.gold-d-raynh" path="/themes/gold-d-raynh.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.gold-d-raynh-light" path="/themes/gold-d-raynh-light.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.melle-julie" path="/themes/melle-julie.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.melle-julie-light" path="/themes/melle-julie-light.theme.json" />
+    <themeProvider id="dev.jetplugins.beardedtheme.webdevcody" path="/themes/webdevcody.theme.json" />
 
     <!-- Bearded Icons File Icon Provider -->
-    <iconProvider implementation="com.beardedtheme.intellij.BeardedIconProvider" id="BeardedIconProvider" order="first"/>
+    <iconProvider implementation="dev.jetplugins.beardedtheme.BeardedIconProvider" id="BeardedIconProvider" order="first"/>
 
     <!-- License check on project open -->
-    <postStartupActivity implementation="com.beardedtheme.intellij.BeardedThemeLicenseCheck"/>
+    <postStartupActivity implementation="dev.jetplugins.beardedtheme.BeardedThemeLicenseCheck"/>
+
+    <!-- Notification group for license warnings -->
+    <notificationGroup id="Bearded Theme" displayType="STICKY_BALLOON"/>
   </extensions>
 </idea-plugin>

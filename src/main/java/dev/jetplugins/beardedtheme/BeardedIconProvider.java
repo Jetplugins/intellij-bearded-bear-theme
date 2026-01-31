@@ -1,4 +1,4 @@
-package com.beardedtheme.intellij;
+package dev.jetplugins.beardedtheme;
 
 import com.intellij.ide.IconProvider;
 import com.intellij.openapi.project.DumbAware;

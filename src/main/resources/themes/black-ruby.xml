@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scheme name="Bearded Theme Black & Ruby" version="142" parent_scheme="Darcula">
+<scheme name="Bearded Theme Black &amp; Ruby" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="created">2024-01-01T00:00:00</property>
     <property name="ide">Idea</property>
     <property name="ideVersion">2024.1.0.0</property>
     <property name="modified">2024-01-01T00:00:00</property>
-    <property name="originalScheme">Bearded Theme Black & Ruby</property>
+    <property name="originalScheme">Bearded Theme Black &amp; Ruby</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="3CEC85" />

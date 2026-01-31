@@ -1,4 +1,4 @@
-package com.beardedtheme.intellij;
+package dev.jetplugins.beardedtheme;
 
 import com.google.gson.*;
 import org.junit.BeforeClass;

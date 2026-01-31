@@ -1,7 +1,7 @@
 # JetBrains Marketplace Listing Configuration
 
 ## Plugin Information
-- **Plugin ID**: com.beardedtheme.intellij
+- **Plugin ID**: dev.jetplugins.beardedtheme
 - **Name**: Bearded Theme
 - **Category**: UI Themes
 
