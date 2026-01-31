@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+  <path d="M1 3.5C1 3.22386 1.22386 3 1.5 3H6L7.5 4.5H14.5C14.7761 4.5 15 4.72386 15 5V13.5C15 13.7761 14.7761 14 14.5 14H1.5C1.22386 14 1 13.7761 1 13.5V3.5Z" fill="#2496ED" fill-opacity="0.2" stroke="#2496ED" stroke-width="0.5" stroke-opacity="0.5"/>
+  <path d="M1 3.5C1 3.22386 1.22386 3 1.5 3H6L7.5 4.5H14.5C14.7761 4.5 15 4.72386 15 5V6H1V3.5Z" fill="#2496ED" fill-opacity="0.35"/>
+  <text x="8" y="10.5" font-family="sans-serif" font-size="4" font-weight="bold" fill="#2496ED" text-anchor="middle" dominant-baseline="central">dkr</text>
+</svg>

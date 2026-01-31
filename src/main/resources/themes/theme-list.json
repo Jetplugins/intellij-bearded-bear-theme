@@ -1,0 +1,514 @@
+[
+  {
+    "slug": "anthracite",
+    "name": "Bearded Theme Anthracite",
+    "dark": true,
+    "hc": false,
+    "themeFile": "anthracite.theme.json",
+    "schemeFile": "anthracite.xml"
+  },
+  {
+    "slug": "anthracite-light",
+    "name": "Bearded Theme Light",
+    "dark": false,
+    "hc": false,
+    "themeFile": "anthracite-light.theme.json",
+    "schemeFile": "anthracite-light.xml"
+  },
+  {
+    "slug": "arc",
+    "name": "Bearded Theme Arc",
+    "dark": true,
+    "hc": false,
+    "themeFile": "arc.theme.json",
+    "schemeFile": "arc.xml"
+  },
+  {
+    "slug": "arc-eolstorm",
+    "name": "Bearded Theme Arc Eolstorm",
+    "dark": true,
+    "hc": false,
+    "themeFile": "arc-eolstorm.theme.json",
+    "schemeFile": "arc-eolstorm.xml"
+  },
+  {
+    "slug": "arc-blueberry",
+    "name": "Bearded Theme Arc Blueberry",
+    "dark": true,
+    "hc": false,
+    "themeFile": "arc-blueberry.theme.json",
+    "schemeFile": "arc-blueberry.xml"
+  },
+  {
+    "slug": "arc-eggplant",
+    "name": "Bearded Theme Arc Eggplant",
+    "dark": true,
+    "hc": false,
+    "themeFile": "arc-eggplant.theme.json",
+    "schemeFile": "arc-eggplant.xml"
+  },
+  {
+    "slug": "arc-reversed",
+    "name": "Bearded Theme Arc Reversed",
+    "dark": true,
+    "hc": false,
+    "themeFile": "arc-reversed.theme.json",
+    "schemeFile": "arc-reversed.xml"
+  },
+  {
+    "slug": "vivid-purple",
+    "name": "Bearded Theme Vivid Purple",
+    "dark": true,
+    "hc": false,
+    "themeFile": "vivid-purple.theme.json",
+    "schemeFile": "vivid-purple.xml"
+  },
+  {
+    "slug": "vivid-black",
+    "name": "Bearded Theme Vivid Black",
+    "dark": true,
+    "hc": false,
+    "themeFile": "vivid-black.theme.json",
+    "schemeFile": "vivid-black.xml"
+  },
+  {
+    "slug": "vivid-light",
+    "name": "Bearded Theme Vivid Light",
+    "dark": false,
+    "hc": false,
+    "themeFile": "vivid-light.theme.json",
+    "schemeFile": "vivid-light.xml"
+  },
+  {
+    "slug": "monokai-terra",
+    "name": "Bearded Theme Monokai Terra",
+    "dark": true,
+    "hc": false,
+    "themeFile": "monokai-terra.theme.json",
+    "schemeFile": "monokai-terra.xml"
+  },
+  {
+    "slug": "monokai-metallian",
+    "name": "Bearded Theme Monokai Metallian",
+    "dark": true,
+    "hc": false,
+    "themeFile": "monokai-metallian.theme.json",
+    "schemeFile": "monokai-metallian.xml"
+  },
+  {
+    "slug": "monokai-stone",
+    "name": "Bearded Theme Monokai Stone",
+    "dark": true,
+    "hc": false,
+    "themeFile": "monokai-stone.theme.json",
+    "schemeFile": "monokai-stone.xml"
+  },
+  {
+    "slug": "monokai-black",
+    "name": "Bearded Theme Monokai Black",
+    "dark": true,
+    "hc": false,
+    "themeFile": "monokai-black.theme.json",
+    "schemeFile": "monokai-black.xml"
+  },
+  {
+    "slug": "monokai-reversed",
+    "name": "Bearded Theme Monokai Reversed",
+    "dark": true,
+    "hc": false,
+    "themeFile": "monokai-reversed.theme.json",
+    "schemeFile": "monokai-reversed.xml"
+  },
+  {
+    "slug": "solarized-dark",
+    "name": "Bearded Theme Solarized Dark",
+    "dark": true,
+    "hc": false,
+    "themeFile": "solarized-dark.theme.json",
+    "schemeFile": "solarized-dark.xml"
+  },
+  {
+    "slug": "solarized-reversed",
+    "name": "Bearded Theme Solarized Reversed",
+    "dark": true,
+    "hc": false,
+    "themeFile": "solarized-reversed.theme.json",
+    "schemeFile": "solarized-reversed.xml"
+  },
+  {
+    "slug": "solarized-light",
+    "name": "Bearded Theme Solarized Light",
+    "dark": false,
+    "hc": false,
+    "themeFile": "solarized-light.theme.json",
+    "schemeFile": "solarized-light.xml"
+  },
+  {
+    "slug": "oceanic",
+    "name": "Bearded Theme Oceanic",
+    "dark": true,
+    "hc": false,
+    "themeFile": "oceanic.theme.json",
+    "schemeFile": "oceanic.xml"
+  },
+  {
+    "slug": "oceanic-reversed",
+    "name": "Bearded Theme Oceanic Reversed",
+    "dark": true,
+    "hc": false,
+    "themeFile": "oceanic-reversed.theme.json",
+    "schemeFile": "oceanic-reversed.xml"
+  },
+  {
+    "slug": "milkshake-raspberry",
+    "name": "Bearded Theme Milkshake Raspberry",
+    "dark": false,
+    "hc": false,
+    "themeFile": "milkshake-raspberry.theme.json",
+    "schemeFile": "milkshake-raspberry.xml"
+  },
+  {
+    "slug": "milkshake-blueberry",
+    "name": "Bearded Theme Milkshake Blueberry",
+    "dark": false,
+    "hc": false,
+    "themeFile": "milkshake-blueberry.theme.json",
+    "schemeFile": "milkshake-blueberry.xml"
+  },
+  {
+    "slug": "milkshake-mango",
+    "name": "Bearded Theme Milkshake Mango",
+    "dark": false,
+    "hc": false,
+    "themeFile": "milkshake-mango.theme.json",
+    "schemeFile": "milkshake-mango.xml"
+  },
+  {
+    "slug": "milkshake-mint",
+    "name": "Bearded Theme Milkshake Mint",
+    "dark": false,
+    "hc": false,
+    "themeFile": "milkshake-mint.theme.json",
+    "schemeFile": "milkshake-mint.xml"
+  },
+  {
+    "slug": "milkshake-vanilla",
+    "name": "Bearded Theme Milkshake Vanilla",
+    "dark": false,
+    "hc": false,
+    "themeFile": "milkshake-vanilla.theme.json",
+    "schemeFile": "milkshake-vanilla.xml"
+  },
+  {
+    "slug": "black-gold",
+    "name": "Bearded Theme Black & Gold",
+    "dark": true,
+    "hc": false,
+    "themeFile": "black-gold.theme.json",
+    "schemeFile": "black-gold.xml"
+  },
+  {
+    "slug": "black-gold-soft",
+    "name": "Bearded Theme Black & Gold Soft",
+    "dark": true,
+    "hc": false,
+    "themeFile": "black-gold-soft.theme.json",
+    "schemeFile": "black-gold-soft.xml"
+  },
+  {
+    "slug": "black-ruby",
+    "name": "Bearded Theme Black & Ruby",
+    "dark": true,
+    "hc": false,
+    "themeFile": "black-ruby.theme.json",
+    "schemeFile": "black-ruby.xml"
+  },
+  {
+    "slug": "black-ruby-soft",
+    "name": "Bearded Theme Black & Ruby Soft",
+    "dark": true,
+    "hc": false,
+    "themeFile": "black-ruby-soft.theme.json",
+    "schemeFile": "black-ruby-soft.xml"
+  },
+  {
+    "slug": "black-emerald",
+    "name": "Bearded Theme Black & Emerald",
+    "dark": true,
+    "hc": false,
+    "themeFile": "black-emerald.theme.json",
+    "schemeFile": "black-emerald.xml"
+  },
+  {
+    "slug": "black-emerald-soft",
+    "name": "Bearded Theme Black & Emerald Soft",
+    "dark": true,
+    "hc": false,
+    "themeFile": "black-emerald-soft.theme.json",
+    "schemeFile": "black-emerald-soft.xml"
+  },
+  {
+    "slug": "black-diamond",
+    "name": "Bearded Theme Black & Diamond",
+    "dark": true,
+    "hc": false,
+    "themeFile": "black-diamond.theme.json",
+    "schemeFile": "black-diamond.xml"
+  },
+  {
+    "slug": "black-diamond-soft",
+    "name": "Bearded Theme Black & Diamond Soft",
+    "dark": true,
+    "hc": false,
+    "themeFile": "black-diamond-soft.theme.json",
+    "schemeFile": "black-diamond-soft.xml"
+  },
+  {
+    "slug": "black-amethyst",
+    "name": "Bearded Theme Black & Amethyst",
+    "dark": true,
+    "hc": false,
+    "themeFile": "black-amethyst.theme.json",
+    "schemeFile": "black-amethyst.xml"
+  },
+  {
+    "slug": "black-amethyst-soft",
+    "name": "Bearded Theme Black & Amethyst Soft",
+    "dark": true,
+    "hc": false,
+    "themeFile": "black-amethyst-soft.theme.json",
+    "schemeFile": "black-amethyst-soft.xml"
+  },
+  {
+    "slug": "aquarelle-cymbidium",
+    "name": "Bearded Theme Aquarelle Cymbidium",
+    "dark": true,
+    "hc": false,
+    "themeFile": "aquarelle-cymbidium.theme.json",
+    "schemeFile": "aquarelle-cymbidium.xml"
+  },
+  {
+    "slug": "aquarelle-hydrangea",
+    "name": "Bearded Theme Aquarelle Hydrangea",
+    "dark": true,
+    "hc": false,
+    "themeFile": "aquarelle-hydrangea.theme.json",
+    "schemeFile": "aquarelle-hydrangea.xml"
+  },
+  {
+    "slug": "aquarelle-lilac",
+    "name": "Bearded Theme Aquarelle Lilac",
+    "dark": true,
+    "hc": false,
+    "themeFile": "aquarelle-lilac.theme.json",
+    "schemeFile": "aquarelle-lilac.xml"
+  },
+  {
+    "slug": "hc-ebony",
+    "name": "Bearded Theme HC Ebony",
+    "dark": true,
+    "hc": true,
+    "themeFile": "hc-ebony.theme.json",
+    "schemeFile": "hc-ebony.xml"
+  },
+  {
+    "slug": "hc-midnightvoid",
+    "name": "Bearded Theme HC Midnight Void",
+    "dark": true,
+    "hc": true,
+    "themeFile": "hc-midnightvoid.theme.json",
+    "schemeFile": "hc-midnightvoid.xml"
+  },
+  {
+    "slug": "hc-wonderlandwood",
+    "name": "Bearded Theme HC Wonderland Wood",
+    "dark": true,
+    "hc": true,
+    "themeFile": "hc-wonderlandwood.theme.json",
+    "schemeFile": "hc-wonderlandwood.xml"
+  },
+  {
+    "slug": "hc-brewingstorm",
+    "name": "Bearded Theme HC Brewing Storm",
+    "dark": true,
+    "hc": true,
+    "themeFile": "hc-brewingstorm.theme.json",
+    "schemeFile": "hc-brewingstorm.xml"
+  },
+  {
+    "slug": "hc-flurry",
+    "name": "Bearded Theme HC Flurry",
+    "dark": false,
+    "hc": true,
+    "themeFile": "hc-flurry.theme.json",
+    "schemeFile": "hc-flurry.xml"
+  },
+  {
+    "slug": "minuit",
+    "name": "Bearded Theme Minuit",
+    "dark": true,
+    "hc": false,
+    "themeFile": "minuit.theme.json",
+    "schemeFile": "minuit.xml"
+  },
+  {
+    "slug": "chocolate-espresso",
+    "name": "Bearded Theme Chocolate Espresso",
+    "dark": true,
+    "hc": false,
+    "themeFile": "chocolate-espresso.theme.json",
+    "schemeFile": "chocolate-espresso.xml"
+  },
+  {
+    "slug": "stained-purple",
+    "name": "Bearded Theme Stained Purple",
+    "dark": true,
+    "hc": false,
+    "themeFile": "stained-purple.theme.json",
+    "schemeFile": "stained-purple.xml"
+  },
+  {
+    "slug": "stained-blue",
+    "name": "Bearded Theme Stained Blue",
+    "dark": true,
+    "hc": false,
+    "themeFile": "stained-blue.theme.json",
+    "schemeFile": "stained-blue.xml"
+  },
+  {
+    "slug": "surprising-eggplant",
+    "name": "Bearded Theme Surprising Eggplant",
+    "dark": true,
+    "hc": false,
+    "themeFile": "surprising-eggplant.theme.json",
+    "schemeFile": "surprising-eggplant.xml"
+  },
+  {
+    "slug": "surprising-blueberry",
+    "name": "Bearded Theme Surprising Blueberry",
+    "dark": true,
+    "hc": false,
+    "themeFile": "surprising-blueberry.theme.json",
+    "schemeFile": "surprising-blueberry.xml"
+  },
+  {
+    "slug": "surprising-watermelon",
+    "name": "Bearded Theme Surprising Watermelon",
+    "dark": true,
+    "hc": false,
+    "themeFile": "surprising-watermelon.theme.json",
+    "schemeFile": "surprising-watermelon.xml"
+  },
+  {
+    "slug": "colorblind",
+    "name": "Bearded Theme Colorblind",
+    "dark": true,
+    "hc": false,
+    "themeFile": "colorblind.theme.json",
+    "schemeFile": "colorblind.xml"
+  },
+  {
+    "slug": "oled",
+    "name": "Bearded Theme OLED",
+    "dark": true,
+    "hc": false,
+    "themeFile": "oled.theme.json",
+    "schemeFile": "oled.xml"
+  },
+  {
+    "slug": "earth",
+    "name": "Bearded Theme Earth",
+    "dark": true,
+    "hc": false,
+    "themeFile": "earth.theme.json",
+    "schemeFile": "earth.xml"
+  },
+  {
+    "slug": "coffee",
+    "name": "Bearded Theme Coffee",
+    "dark": true,
+    "hc": false,
+    "themeFile": "coffee.theme.json",
+    "schemeFile": "coffee.xml"
+  },
+  {
+    "slug": "coffee-reversed",
+    "name": "Bearded Theme Coffee Reversed",
+    "dark": true,
+    "hc": false,
+    "themeFile": "coffee-reversed.theme.json",
+    "schemeFile": "coffee-reversed.xml"
+  },
+  {
+    "slug": "coffee-cream",
+    "name": "Bearded Theme Coffee Cream",
+    "dark": false,
+    "hc": false,
+    "themeFile": "coffee-cream.theme.json",
+    "schemeFile": "coffee-cream.xml"
+  },
+  {
+    "slug": "voided",
+    "name": "Bearded Theme Voided",
+    "dark": true,
+    "hc": false,
+    "themeFile": "voided.theme.json",
+    "schemeFile": "voided.xml"
+  },
+  {
+    "slug": "altica",
+    "name": "Bearded Theme Altica",
+    "dark": true,
+    "hc": false,
+    "themeFile": "altica.theme.json",
+    "schemeFile": "altica.xml"
+  },
+  {
+    "slug": "will",
+    "name": "Bearded Theme Will",
+    "dark": true,
+    "hc": false,
+    "themeFile": "will.theme.json",
+    "schemeFile": "will.xml"
+  },
+  {
+    "slug": "gold-d-raynh",
+    "name": "Bearded Theme Gold D Raynh",
+    "dark": true,
+    "hc": false,
+    "themeFile": "gold-d-raynh.theme.json",
+    "schemeFile": "gold-d-raynh.xml"
+  },
+  {
+    "slug": "gold-d-raynh-light",
+    "name": "Bearded Theme Gold D Raynh Light",
+    "dark": false,
+    "hc": false,
+    "themeFile": "gold-d-raynh-light.theme.json",
+    "schemeFile": "gold-d-raynh-light.xml"
+  },
+  {
+    "slug": "melle-julie",
+    "name": "Bearded Theme Melle Julie",
+    "dark": true,
+    "hc": false,
+    "themeFile": "melle-julie.theme.json",
+    "schemeFile": "melle-julie.xml"
+  },
+  {
+    "slug": "melle-julie-light",
+    "name": "Bearded Theme Melle Julie Light",
+    "dark": false,
+    "hc": false,
+    "themeFile": "melle-julie-light.theme.json",
+    "schemeFile": "melle-julie-light.xml"
+  },
+  {
+    "slug": "webdevcody",
+    "name": "Bearded Theme WebDevCody",
+    "dark": true,
+    "hc": false,
+    "themeFile": "webdevcody.theme.json",
+    "schemeFile": "webdevcody.xml"
+  }
+]
