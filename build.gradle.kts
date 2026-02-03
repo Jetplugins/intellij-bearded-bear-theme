@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "dev.jetplugins.beardedtheme"
-version = "1.0.0"
+version = "1.1.0"
 
 repositories {
     mavenCentral()
@@ -35,7 +35,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("241")
-        untilBuild.set("251.*")
+        untilBuild.set("")
     }
 
     signPlugin {
