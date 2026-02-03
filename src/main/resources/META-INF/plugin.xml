@@ -42,6 +42,12 @@
   ]]></description>
 
   <change-notes><![CDATA[
+    <h3>1.1.0</h3>
+    <ul>
+      <li>Remove IDE version upper bound for compatibility with all future IntelliJ versions</li>
+      <li>Fix compatibility with IntelliJ IDEA 2025.3.x</li>
+    </ul>
+
     <h3>1.0.0</h3>
     <ul>
       <li>Initial release with 64 theme variants</li>
