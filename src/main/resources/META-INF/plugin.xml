@@ -4,7 +4,7 @@
   <vendor email="beardedtheme@pm.me" url="https://github.com/BeardedBear/bearded-theme">Bearded Bear</vendor>
   <version>1.0.0</version>
 
-  <product-descriptor code="PBEARDEDTHEME" release-date="20240101" release-version="10" optional="true"/>
+  <product-descriptor code="PBEARDEDTHEME" release-date="20260203" release-version="11" optional="true"/>
 
   <description><![CDATA[
     <h2>Bearded Theme for IntelliJ</h2>
