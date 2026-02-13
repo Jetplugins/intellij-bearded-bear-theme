@@ -4,7 +4,7 @@
   <vendor email="beardedtheme@pm.me" url="https://github.com/BeardedBear/bearded-theme">Bearded Bear</vendor>
   <version>1.0.0</version>
 
-  <product-descriptor code="PBEARDEDTHEME" release-date="20260203" release-version="11" optional="true"/>
+  <product-descriptor code="PBEARDEDTHEME" release-date="20260213" release-version="12" optional="true"/>
 
   <description><![CDATA[
     <h2>Bearded Theme for IntelliJ</h2>
@@ -42,6 +42,11 @@
   ]]></description>
 
   <change-notes><![CDATA[
+    <h3>1.2.0</h3>
+    <ul>
+      <li>Add settings page to toggle Bearded file icons on/off (Settings &gt; Appearance &amp; Behavior &gt; Bearded Theme)</li>
+    </ul>
+
     <h3>1.1.0</h3>
     <ul>
       <li>Remove IDE version upper bound for compatibility with all future IntelliJ versions</li>
@@ -127,6 +132,13 @@
     <themeProvider id="dev.jetplugins.beardedtheme.melle-julie" path="/themes/melle-julie.theme.json" />
     <themeProvider id="dev.jetplugins.beardedtheme.melle-julie-light" path="/themes/melle-julie-light.theme.json" />
     <themeProvider id="dev.jetplugins.beardedtheme.webdevcody" path="/themes/webdevcody.theme.json" />
+
+    <!-- Settings -->
+    <applicationService serviceImplementation="dev.jetplugins.beardedtheme.BeardedThemeSettings"/>
+    <applicationConfigurable parentId="appearance"
+                             instance="dev.jetplugins.beardedtheme.BeardedThemeConfigurable"
+                             id="dev.jetplugins.beardedtheme.BeardedThemeConfigurable"
+                             displayName="Bearded Theme"/>
 
     <!-- Bearded Icons File Icon Provider -->
     <iconProvider implementation="dev.jetplugins.beardedtheme.BeardedIconProvider" id="BeardedIconProvider" order="first"/>

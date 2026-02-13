@@ -271,6 +271,9 @@ public class BeardedIconProvider extends IconProvider implements DumbAware {
 
     @Override
     public @Nullable Icon getIcon(@NotNull PsiElement element, int flags) {
+        if (!BeardedThemeSettings.getInstance().isIconsEnabled()) {
+            return null;
+        }
         if (element instanceof PsiDirectory) {
             return getFolderIcon((PsiDirectory) element);
         }
